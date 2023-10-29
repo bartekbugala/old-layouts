@@ -1,0 +1,22 @@
+/* -- PSD LAYOUT START --*/
+/* REMOVE AFTER FINISH */
+#layout_psd {
+    display: none;
+    position: absolute;
+    width: 98.7vw /*1583px*/;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: 100;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#layout_psd img {
+    width: 100%;
+}
+
+/* -- PSD LAYOUT END -- */

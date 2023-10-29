@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="10.525396mm"
+   height="15.08125mm"
+   viewBox="0 0 10.525396 15.08125"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="brush.svg">
+  <title
+     id="title4501">Brush</title>
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.7733431"
+     inkscape:cx="-29.079527"
+     inkscape:cy="35.480973"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="-202.58867,94.530848"
+       orientation="0,1"
+       id="guide6422"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-201.72166,79.791788"
+       orientation="0,1"
+       id="guide6424"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-193.62963,-123.66495"
+       orientation="0,1"
+       id="guide6426"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-186.11561,-138.69301"
+       orientation="0,1"
+       id="guide6428"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-351.7132,-57.194709"
+       orientation="1,0"
+       id="guide6430"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-336.68515,-74.534772"
+       orientation="1,0"
+       id="guide6432"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-151.43549,-81.181796"
+       orientation="1,0"
+       id="guide6434"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-135.82943,-95.63185"
+       orientation="1,0"
+       id="guide6436"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-210.39169,-183.19917"
+       orientation="0,1"
+       id="guide6438"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-212.9927,-167.59312"
+       orientation="0,1"
+       id="guide6440"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-225.99775,118.51794"
+       orientation="0,1"
+       id="guide6442"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-206.63468,133.25699"
+       orientation="0,1"
+       id="guide6444"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-176.97792,112.82042"
+       orientation="1,0"
+       id="guide6541"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-311.23889,108.93769"
+       orientation="1,0"
+       id="guide6543"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Brush</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/" />
+        <dc:date>07.04.2017</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Bartłomiej Bugała</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-73.983208,-150.73977)">
+    <g
+       id="g7288"
+       transform="matrix(1.0115779,0,0,1.0115779,-59.618332,-4.2586345)">
+      <path
+         sodipodi:nodetypes="cscc"
+         inkscape:connector-curvature="0"
+         id="path7265"
+         d="m 133.88258,153.39545 c 6e-4,-0.002 -3.66647,8.42174 0.76634,8.22527 3.68615,-0.16338 0.44835,-4.30765 0.45979,-4.29145 0,0 -1.68592,-3.01423 -1.22613,-3.93382 z"
+         style="fill:none;stroke:#c8c8c8;stroke-width:0.76499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cscc"
+         inkscape:connector-curvature="0"
+         id="path7265-5"
+         d="m 134.27412,162.60942 c 2.2e-4,-6.9e-4 -1.25831,2.89031 0.26302,2.82288 1.26506,-0.056 0.15386,-1.47837 0.15779,-1.47281 0,0 -0.57859,-1.03447 -0.42081,-1.35007 z"
+         style="fill:#ec135b;fill-opacity:1;stroke:none;stroke-width:0.09080388px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccssssscccc"
+         inkscape:connector-curvature="0"
+         id="path7282"
+         d="m 141.51954,165.87479 c -0.74147,-0.42095 -3.08489,-1.74944 -3.42664,-3.09731 -0.0807,-0.24858 -0.23421,-0.36495 -0.34313,-0.44623 -0.14498,-0.10819 -0.29851,-0.19577 -0.43652,-0.21744 -1.12721,-0.17698 -1.80554,0.83244 -1.37499,1.75417 0.56839,1.21681 1.63238,2.42062 3.4619,3.42358 0.95011,0.52086 1.41788,0.51533 1.90568,0.41056 0.43592,-0.0936 0.4213,-0.16255 0.62321,-0.35946 0.29279,-0.37098 0.15279,-0.76512 -0.0546,-1.13285 0,0 -0.21523,-0.25823 -0.35487,-0.33502 z"
+         style="fill:none;stroke:#c8c8c8;stroke-width:0.76499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

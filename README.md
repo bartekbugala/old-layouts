@@ -1,4 +1,4 @@
-# Blue-Layout
+# OLD Layouts made 2018 - 2019
 
 ## Simple RWD Layout
 [blue layout](https://bartekbugala.github.io/old-layouts/blue/)

@@ -4,6 +4,7 @@
 [blue layout](https://bartekbugala.github.io/old-layouts/admin-v3/)
 Tech used: JS / SCSS(SASS) / HTML5 / WEBPACK
 
+## Simple RWD Layout
 [green layout](https://bartekbugala.github.io/old-layouts/green/)
 Tech used:  SCSS(SASS) / HTML5
 

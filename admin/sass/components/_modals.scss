@@ -1,0 +1,67 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    width: 100%;
+    height: 100%;
+    background-color: $modal-overlay-bg;
+
+    justify-content: center;
+    align-items: center;
+
+    overflow: auto;
+    padding: 30px;
+
+    display: none;
+    &.show {
+        display: flex;
+    }
+}
+
+.modal {
+    max-width: 700px;
+    margin: auto;
+    background-color: $section-background-color;
+    position: relative;
+    border-radius: 5px;
+    overflow-x: auto;
+    .btn-close {
+        float:right;
+        top: 5px;
+        right: 5px;
+        position: absolute;
+    }
+    header {
+        padding: 40px;
+        width: 100%;
+        border-bottom: solid $section-dividing-line-width $section-dividing-line-color;
+        h3 {
+            float: left;
+        }
+        
+    }
+
+
+    .modal-content {
+        display: flex;
+        flex: wrap;
+        width: 100%;
+        padding: $section-padding;
+        form {
+            .field-row {
+                display: flex;
+                justify-content: center;
+                input {
+                    flex: 0 1 100px;
+                    margin: 5px;
+                }
+                div {
+                    margin: 5px;
+                    flex: 0 1 100px;
+                }
+            }
+        }
+    }
+}

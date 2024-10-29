@@ -1,0 +1,52 @@
+[class^="status-"] {
+    position: relative;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+        z-index: 3;
+    }
+}
+
+.status-sm,
+.status-icon {
+    &::after {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.status-md {
+    &::after {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.alert-status {
+    &::after {
+        top: -5px;
+        right: 0;
+    }
+}
+
+.manager-status {
+    &::after {
+        top: 0;
+        right: 0;
+    }
+}
+
+.status-green {
+    &::after {
+        background-color: $success-color;
+    }
+}
+
+.status-orange {
+    &::after {
+        background-color: $warning-color;
+    }
+}

@@ -1,0 +1,45 @@
+.top-header li,
+nav li,
+nav a,
+.menu-manager-section a,
+.underlined-link {
+    transition: background-color $color-transition $color-transition-speed;
+}
+
+.top-header .profile span,
+.top-header a,
+nav a,
+.logo-section .hamburger a,
+.menu-manager-section a,
+.underlined-link a {
+    transition: color $color-transition $color-transition-speed;
+}
+
+.logo-section div a {
+    transition: text-shadow $shadow-transition 1s;
+}
+
+.top-header ul li:after {
+    transition: background-color $color-transition $color-transition-speed;
+}
+
+
+.underlined-link a {
+    transition: opacity $opacity-transition $opacity-transition-speed;
+}
+
+.menu-wrapper {
+    transition: width $size-transition $size-transition-speed;
+
+    aside {
+        transition: width $size-transition $size-transition-speed;
+    }
+}
+
+.top-header {
+    transition: width $size-transition $size-transition-speed, margin-left $size-transition $size-transition-speed;
+}
+
+section {
+    transition: width $size-transition $size-transition-speed, margin-left $size-transition $size-transition-speed;
+}

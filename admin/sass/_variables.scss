@@ -1,0 +1,77 @@
+/* Variables */
+$body-background-color: #f5f5f2;
+
+$section-background-color: #ffffff;
+$section-main-color: #a6a6a6;
+$section-shadow-color: #e3e3e3;
+$section-margin: 20px;
+$section-padding: 20px;
+$section-background-color-hover: #f0f0ee;
+$section-dividing-line-width: 1px;
+$section-dividing-line-color: #e3e3e3;
+
+$modal-padding: 20px;
+$modal-overlay-bg: rgba(0, 0, 0, 0.5);
+
+
+$input-color: #333333;
+$input-border-color: #e3e3e3;
+
+// Menu
+$menu-background-color: #191919;
+$menu-background-color-hover: #303030;
+$menu-color: #999999;
+$menu-color-hover: #ffffff;
+$menu-left-padding-color-hover: #f58220;
+$menu-left-padding-hover: 5px;
+$menu-width: 240px;
+$menu-minus-width: 175px;
+$hamburger-padding-right: 31px;
+$logo-bar-height: 75px;
+
+$warning-color: #f58220;
+$warning-color-hover: #ffb638;
+$button-color: #ffffff;
+
+$secondary-color: #979797;
+$secondary-color-hover: #bababa;
+
+$disabled-color: #e3e3e3;
+
+$link-color: #56819f;
+$link-color-hover: #ffa200;
+
+$chart-signups-color: #80bfca;
+$chart-ftd-color: #ff9a38;
+$chart-earned-color: #59b66d;
+$chart-button-bg-color: #f3f3f1;
+$chart-button-color: #a6a6a6;
+
+$scroll-light-color: #e3e3e3;
+$scroll-dark-color: #9c9c9c;
+
+$success-color: #04ae00;
+$messenger-online: #e3e3e3;
+
+$brand-main-color: #ff0000;
+
+/* Font sizes */
+$paragraph-font-size: 16px;
+
+/* Fonts */
+$brand-font: "Open Sans",
+Helvetica,
+Arial;
+$main-font: "Open Sans",
+Helvetica,
+Arial;
+
+/* Animations */
+$size-transition-speed: .3s;
+$color-transition-speed: .2s;
+$opacity-transition-speed: .3s;
+$shadow-transition-speed: .1s;
+$opacity-transition: ease-in;
+$color-transition: ease-in;
+$size-transition: linear;
+$shadow-transition: ease-out;

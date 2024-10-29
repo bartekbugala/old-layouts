@@ -1,0 +1,101 @@
+.top-header {
+    background-color: $section-background-color;
+    margin-left: calc(#{$menu-width} - #{$menu-minus-width});
+    width: calc(100% - (#{$menu-width} - #{$menu-minus-width}));
+    font-size: 1.3em;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+
+        li:after {
+            display: flex;
+            content: "";
+            position: absolute;
+            z-index: -2;
+            background-color: $section-background-color;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        li:hover:after {
+            background-color: $section-background-color-hover;
+        }
+
+        li {
+            display: flex;
+            border-left: solid 2px $input-border-color;
+            position: relative;
+            background-color: unset;
+            z-index: 0;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                display: flex;
+                color: $section-main-color;
+                padding: 18px 14px;
+                align-items: center;
+                justify-content: center;
+                span {
+                    i {
+                        font-size: 0.9em;
+                    }
+                }
+
+                i {
+                    font-size: 0.9em;
+                }
+            }
+        }
+
+        .wallet {
+            flex: 0 2 220px;
+
+            a {
+                span {
+                    font-weight: 600;
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        .notification {
+            flex: 0 2 60px;
+            background-color: red;
+            a span i {
+                    display: block;
+                    width: 20px;
+                    position: relative;
+            }
+        }
+
+        .profile {
+            flex: 0 2 220px;
+
+            span {
+                font-size: 0.7em;
+                font-weight: 600;
+                color: $link-color;
+                white-space: normal;
+                margin-left: 10px;
+            }
+
+            &:hover span {
+                color: $link-color-hover;
+            }
+        }
+
+        .quit {
+            flex: 0 0 60px;
+        }
+    }
+}
+
+.top-header-show-menu {
+    margin-left: $menu-width;
+    width: calc(100% - #{$menu-width});
+}

@@ -1,0 +1,102 @@
+.general-statistic-section {
+    .input-date-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .input-date-range {
+            display: flex;
+            align-items: stretch;
+            justify-content: stretch;
+            flex-wrap: nowrap;
+            flex-basis: 40%;
+            border: solid 2px $input-border-color;
+
+            .input-date {
+                flex: 5 0 40%;
+                display: flex;
+                color: $input-color;
+                line-height: 30px;
+                padding: 5px;
+                margin: 5px;
+
+                &:first-of-type {
+                    border-right: solid 2px $input-border-color;
+                    margin-right: -2px;
+
+                }
+
+                i {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    flex: 1 0 10%;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .input-date-btn {
+            margin: 10px;
+            flex-basis: 5%;
+        }
+    }
+
+    .counter-section {
+        border-bottom: unset;
+        .counters {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            border-bottom: unset;
+
+            .underlined-counter {
+                width: 200px;
+                margin: 10px 30px;
+                border-bottom: solid 2px $input-border-color;
+                display: flex;
+                justify-content: space-between;
+
+                span {
+                    display: flex;
+
+                    padding: 5px;
+                    white-space: nowrap;
+
+                    &:first-of-type {
+                        font-weight: bold;
+                        justify-content: flex-start;
+                        flex: 0 0 30%;
+                    }
+
+                    &:last-of-type {
+                        color: $input-color;
+                        justify-content: flex-end;
+                        flex: 0 0 20%;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .chart-container {
+        .chart-positioner {
+            h4 {
+                margin: 30px 0;
+            }
+
+            margin: 0 auto;
+            width: 70%;
+
+            .chart-wrapper {
+                min-width: 500px;
+
+            }
+        }
+
+    }
+}

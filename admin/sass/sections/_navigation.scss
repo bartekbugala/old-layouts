@@ -1,0 +1,214 @@
+.menu-wrapper {
+  * {
+    flex-shrink: 0;
+  }
+
+  aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $menu-background-color;
+    width: $menu-width;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+    .logo-section {
+      height: $logo-bar-height;
+      display: flex;
+      align-items: center;
+      justify-content:  space-around;
+      flex-wrap: nowrap;
+      overflow: hidden;      
+
+      div {
+        display: flex;
+
+        a {
+          height: 22px;
+          display: flex;
+          align-items: center;
+
+          i {
+            line-height: 22px;
+          }
+        }
+      }
+
+      .logo {
+        display: flex;
+        flex: 0 0 calc(#{$menu-minus-width});
+        font-size: 100px;
+        padding-left: 25px;
+
+        a {
+          color: $menu-color-hover;
+
+          &:hover {
+            text-shadow: 0 0 10px $link-color-hover;
+          }
+        }
+      }
+
+      .hamburger {
+        justify-content: center;
+        flex: 0 0 calc(#{$menu-width} - #{$menu-minus-width});
+        font-size: 22px;
+
+        a {
+          color: $menu-color;
+
+          &:hover {
+            text-shadow: 0 0 10px $link-color-hover;
+            color: $menu-color-hover;
+          }
+        }
+      }
+    }
+
+    nav {
+      ul {
+        list-style-type: none;
+        padding: 0 0 20px 0;
+        border-bottom: solid 2px $menu-background-color-hover;
+
+        li {
+          padding-left: $menu-left-padding-hover;
+          background-color: $menu-background-color;
+          overflow: hidden;
+
+          a {
+            background-color: $menu-background-color;
+            color: $menu-color;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            font-size: 16px;
+            padding: 16px 20px;
+            flex-wrap: nowrap;
+
+            i {
+              margin-right: 20px;
+            }
+
+            span {
+              white-space: nowrap;
+              display: flex;
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+
+          &:hover {
+            background-color: $menu-left-padding-color-hover;
+
+            a {
+              &:hover {
+                color: $menu-color-hover;
+                background-color: $menu-background-color-hover;
+              }
+            }
+          }
+        }
+        .menu-active {
+          background-color: $menu-left-padding-color-hover;
+          a {
+            color: $menu-color-hover;
+            background-color: $menu-background-color-hover;
+          }
+        }
+      }
+    }
+
+    .menu-manager-section {
+      padding: 20px 0;
+      height: auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      overflow: hidden;
+
+      h4 {
+        white-space: nowrap;
+        display: unset;
+        text-transform: uppercase;
+        justify-self: stretch;
+        margin: 5px 0 10px 20px;
+      }
+
+      a {
+        padding: 10px 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        width: $menu-width;
+
+        .avatar-img {
+          margin-right: 10px;
+          border-radius: 50%;
+          max-width: 60px;
+        }
+
+        .manager-name {
+          white-space: nowrap;
+          overflow: hidden;
+        }
+
+        &:hover {
+          background-color: $menu-background-color-hover;
+          color: $link-color-hover;
+        }
+      }
+    }
+  }
+}
+
+.menu-wrapper-toggle {
+  aside {
+    background-color: $menu-background-color;
+    width: calc(#{$menu-width} - #{$menu-minus-width});
+
+    .logo-section {
+      .logo {
+        margin-left: calc(#{$menu-minus-width} * -1);
+      }
+    }
+
+    nav ul li a span {
+      display: flex;
+      opacity: 0;
+      overflow: hidden;
+      visibility: hidden;
+      white-space: nowrap;
+    }
+
+    .menu-manager-section {
+      justify-content: flex-start;
+      align-items: center;
+
+      h4 {
+        display: none;
+      }
+
+      a {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .avatar-img {
+          margin: 0;
+          justify-content: flex-start;
+          max-width: 30px;
+        }
+
+        .manager-name {
+          display: none;
+        }
+      }
+    }
+  }
+}

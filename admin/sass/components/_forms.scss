@@ -1,0 +1,62 @@
+form {
+    label {
+        font-weight: bold;
+    }
+
+    input {
+        border: solid 1px $input-border-color;
+        border-radius: 5%;
+        color: $input-color;
+        padding: 12px;
+    }
+
+    .field-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 8px 0;
+        span,
+        input
+        {
+            justify-content: flex-start;
+        }
+
+        span {
+            content:" ";
+            flex: 0 2 180px;
+            margin-left: 10px;
+        }
+
+        input {
+            flex: 0 2 280px;
+            margin-right: 10px;
+        }
+        .error {
+            display: flex;
+            flex: 0 4 460px;
+            justify-content: flex-end;
+            font-size: 0.8em;
+            color: red;
+     
+        }
+
+    }
+
+    
+.buttons-center {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .btn {
+        margin: 10px 10px;
+
+    }
+}
+    button,
+    .btn {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+    }
+}

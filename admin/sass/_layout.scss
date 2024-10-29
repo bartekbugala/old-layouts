@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  outline: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    $width: 100% / 12 * $i;
+    flex: 0 0 $width;
+    max-width: $width;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+ul,
+ol {
+  font-family: $main-font;
+  color: $section-main-color;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+}
+
+body {
+  background-color: $body-background-color;
+}
+
+// Styling of sections in the content area
+section {
+  display: flex;
+  background-color: $section-background-color;
+  margin: $section-margin;
+  margin-left: calc(#{$menu-width} - #{$menu-minus-width} + #{$section-margin});
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 16px 1px $section-shadow-color;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  header,
+  .section-part {
+    justify-self: stretch;
+  }
+
+  header,
+  .section-part {
+    padding: $section-padding;
+    width: 100%;
+    border-bottom: solid $section-dividing-line-width $section-dividing-line-color;
+  }
+}
+
+.section-show-menu {
+  margin-left: calc(#{$menu-width} + #{$section-margin});
+}
+
+.scroll-wrapper {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.scroll-wrapper table {
+  width: 100%;
+  max-width: 100%;
+}

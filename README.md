@@ -1,7 +1,7 @@
 # OLD Layouts made 2018 - 2019
 
 ## Admin Panel Layout for Banner / Link management
-[blue layout](https://bartekbugala.github.io/old-layouts/admin-v3/)
+[admin panel](https://bartekbugala.github.io/old-layouts/admin/)
 Tech used: JS / SCSS(SASS) / HTML5 / WEBPACK
 
 ## Simple RWD Layout
